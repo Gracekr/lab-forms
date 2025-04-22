@@ -27,39 +27,38 @@ A partir de que funcione, dale un estilo con CSS: colores, tipo de fuente, distr
 </head>
 
 <body>
+    <h1>Rellene los datos de contacto</h1>
+    <p>Los campos con <span>*</span> son obligatorios</p>
 
-    <div class="container">
-        <h1>Rellene los datos de contacto</h1>
-        <p>Los campos con <span>*</span> con obligatorios</p>
-        <form action="recibido.html" method="get" name="LabForm">
-            <div> <label for="Name">*Nombre</label>
-                <input id="Name" name="Name" type="text" placeholder="María" autofocus>
-            </div>
+    <form action="recibido.html" method="get" name="LabForm">
+        <label for="Name">Nombre</label><br>
+        <input id="Name" name="Name" type="text" placeholder="María" autofocus><br>
 
-            <div> <label for="Lastname">*Apellido</label>
-                <input id="Lastname" name="Lastname" type="text" placeholder="Pérez" required>
-            </div>
 
-            <div> <label for="Age">*Edad</label>
-                <input id="Age" name="Age" type="number" placeholder="Edad" min="18" max="200" required>
-            </div>
+        <label for="Lastname">*Apellido</label><br>
+        <input id="Lastname" name="Lastname" type="text" placeholder="Pérez" required><br>
 
-            <div> <label for="mail">*E-mail</label>
-                <input id="mail" name="mail" type="email" placeholder="correo@correo.com" required>
-            </div>
-            <div> <label for="Subject">*Asunto</label>
-                <input id="Subject" name="Subject" type="text" required>
-            </div>
-            <br>
-            <div> <label class="Comment" for="Comentario">Comentario</label>
-                <textarea name="Comment" id="Comment" cols="50" rows="25" placeholder="Max. 150 caracteres"
-                    maxlength="150" minlength="30"></textarea>
-            </div>
 
-            <input type="submit">
+        <label for="Age">*Edad </label><br>
+        <input id="Age" name="Age" type="number" placeholder="Edad" min="18" max="200" required><br>
 
-        </form>
-    </div>
+
+        <label for="mail">*E-mail</label><br>
+        <input id="mail" name="mail" type="email" placeholder="correo@correo.com" required><br>
+
+        <label for="Subject">*Asunto</label><br>
+        <input id="Subject" name="Subject" type="text" required><br>
+
+        <br>
+        <label for="Comentario">Comentario</label><br>
+        <textarea name="Comment" id="Comment" cols="40" rows="25" placeholder="Max. 150 caracteres" maxlength="150"
+            minlength="30"></textarea>
+
+        <br>
+        <input type="submit">
+
+    </form>
+    
 </body>
 
 </html>
