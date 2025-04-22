@@ -1,0 +1,36 @@
+.container {
+    background-color: darkseagreen;
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 10px;
+
+
+
+}
+
+input {
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+label {
+    margin-right: 30px;
+}
+
+h1 {
+    color: rgb(126, 104, 33);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span{
+    color: red;
+}
+.comment{
+    font-weight: 100;
+    font-size: 25px;
+    padding: 10px;
+    
+}
